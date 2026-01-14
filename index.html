@@ -7,32 +7,62 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
         
-        <style>
-            body {
-                font-family: "Noto Sans KR", sans-serif;
-                font-optical-sizing: auto;
-                font-weight: 400;
-                font-style: normal;
-                margin: 0;
-                padding: 0;
-            }
-
-            .header{
-                text-align: center;
-                background : linear-gradient(to right, #7F7FD5, #86A8E7, #91EAE4);
-                padding-top: 10px;
-                padding-bottom: 10px;
-                font-size: 20px;
-                color: white;
-            }
-        </style>
+        <link rel="stylesheet" href="index.css">
     </head>
     <body>
         <div class="header">
             <h4>yang-hee</h4>
+            <div>
+                <a href="https://github.com/yang-hee">github</a>
+                <a href="https://velog.io/@yang_gang_/posts">velog</a>
+            </div>
         </div>
-        <div>
-            <h3>안녕하세요,<br> 양희진입니다.</h3>
-            <p>안녕하세요<br> 양희진입니다<br></p>
+        <div class="introduce">
+            <div>
+                <img src="./img/profile.png" alt="프로필이미지">
+                <h2>안녕하세요, <span class="name">양희진</span>입니다.</h2>
+            </div>
+            
+            <div class="grid_list">
+                <div>
+                    <span class="title">🪪 CERTIFICATED</span><br>
+                    <div class="con">
+                        <span class="year">2024.09</span>  <span class="certificated">정보처리기사</span><br>
+                        <span class="year">2022.05</span>  <span class="certificated">GTQ 그래픽 기술 자격</span><br>
+                    </div>
+                </div>
+                <div>
+                    <span class="title">📕 STUDY</span>
+                    <div class="con">
+                        <span class="year">2026.01~</span>  <span class="certificated">You Don't Know JS Yet</span><br>
+                    </div>
+                </div>
+            </div>
+            <br><hr style="border-top: 3px double #7F7FD5;"><br>
+
+            <div class="projects">
+                <img class="project_img" src="./img/project1.png">
+                <div class="project_title">
+                    <p> 프로젝트1 </p>
+                  <input class="card_button" type="button" value="설명" onClick="alert('프로젝트1 설명');">
+                </div>
+            </div>
+            
+            <div class="projects">
+                <img class="project_img" src="./img/project2.png">
+                <div class="project_title">
+                    <p> 프로젝트2 </p>
+                  <input class="card_button" type="button" value="설명" onClick="alert('프로젝트2 설명');">
+                </div>
+            </div>
+
+            <div class="projects">
+                <img class="project_img" src="./img/project3.png">
+                <div class="project_title">
+                    <p> 프로젝트3 </p>
+                  <input class="card_button" type="button" value="설명" onClick="alert('프로젝트3 설명');">
+                </div>
+            </div>
         </div>
+        
     </body>
